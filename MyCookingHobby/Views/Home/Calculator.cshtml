@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Service Calculator";
+}
+@section Scripts {
+    <script src="~/js/calculator.js"></script>
+}
+
+
+<h2>Service Calculator</h2>
+
+<div class="calculator-form">
+    <label for="hoursInput">Hours required:</label>
+    <input type="number" id="hoursInput" name="hoursInput" min="1" required />
+
+    <label for="rate">Hourly rate:</label>
+    <input type="text" id="rate" name="rate" value="50" readonly />
+
+    <button id="calculateButton">Calculate Total</button>
+
+    <label for="totalOutput">Total cost:</label>
+    <input type="text" id="totalOutput" name="totalOutput" readonly />
+
+    <button id="backButton">Back to Home</button>
+</div>
+

@@ -8,8 +8,35 @@ html {
   }
 }
 
+button {
+    background-color: #258cfb;
+    border: 1px solid #258cfb;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #1c7cd6;
+}
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 html {
@@ -20,3 +47,31 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.calculator-form {
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+    .calculator-form label,
+    .calculator-form input,
+    .calculator-form button {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .calculator-form input,
+    .calculator-form button {
+        width: 200px;
+    }

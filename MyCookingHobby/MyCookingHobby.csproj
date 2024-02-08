@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\js\calculator.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\calculator.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\calculator.js" />
+  </ItemGroup>
+
 </Project>

@@ -18,7 +18,7 @@ namespace MyCookingHobby.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Calculator()
         {
             return View();
         }
