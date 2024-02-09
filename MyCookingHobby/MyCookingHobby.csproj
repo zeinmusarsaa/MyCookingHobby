@@ -18,4 +18,8 @@
     <None Include="wwwroot\js\calculator.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>

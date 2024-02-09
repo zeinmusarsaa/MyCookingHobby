@@ -14,7 +14,9 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MyCookingHobby</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="https://www.shutterstock.com/image-vector/palestine-on-watermelon-illustration-symbol-260nw-2383565683.jpg" alt="Logo" style="height: 30px; margin-right: 10px;">MyCookingHobby
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,10 +41,9 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - MyCookingHobby - <a asp-area="" asp-controller="Home" asp-action="Calculator">Calculator</a>
-        </div>
+        <p>&copy; @DateTime.Now.Year - Palestinian Cuisine by Zein Mosarsaa- Zein is a Palestinian international student. Besides school and work,her ultimate hobby is cooking and baking. She hopes one day to be able to leave a legacy through her work in tech, and the food she makes.</p>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
